@@ -30,16 +30,5 @@ def read_file(open_file='notes.json'):
         return result
     
 
-# def load_file(open_file='notes.json'):
-#     """
-#     Читает данные формата json
-#     :param open_file: Открывает имеющийся файл json
-#     :return: записывает в формат *.json значения (в одну строрку)
-#     """
-#     with open(f'{open_file}', 'r', encoding='utf-8') as json_file:
-#         data = json.load(json_file)
-#         result = []
-#         for i in data:
-#             result.append(i)
-#         return result
+
 
